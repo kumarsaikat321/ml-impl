@@ -1,4 +1,4 @@
-1. https://scikit-learn.org/stable/modules/linear_model.html#ordinary-least-squares - Doing now
+1. https://scikit-learn.org/stable/modules/linear_model.html#ordinary-least-squares - Doing now- completed the weight vector concept for least square algorithm, brushed up the python basics with some errors like syntax,intend,tab error
 2. https://scikit-learn.org/stable/modules/linear_model.html#ridge-regression-and-classification
 3. https://scikit-learn.org/stable/modules/linear_model.html#bayesian-regression
 4. https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
