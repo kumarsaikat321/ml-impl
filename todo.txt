@@ -2,6 +2,7 @@
 Starting now from the last update.
 Starting from the basics of python.
 Started the Hackerrank problems based on python basics for practice.
+Starting the python code for least square.
 2. https://scikit-learn.org/stable/modules/linear_model.html#ridge-regression-and-classification
 3. https://scikit-learn.org/stable/modules/linear_model.html#bayesian-regression
 4. https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
