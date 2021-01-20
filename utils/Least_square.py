@@ -35,8 +35,9 @@ class least_sq:
 
     def fit(self):
         for j in range(self.ite):
-            self.x = random.random()
-            self.y = random.random()
+            self.m -= self.update_w()
+            self.b -= self.update_b()
+
 
 
 
