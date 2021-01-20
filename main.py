@@ -5,6 +5,6 @@ if __name__ == '__main__':
     #dg = DataGenerator(3, 3)
     #print(dg.generate())
 
-    ft = least_sq(3, 3, 5)
+    ft = least_sq([1,2,3,4,5], [1,2,3,4,5])
     print(ft.fit())
 
