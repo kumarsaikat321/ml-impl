@@ -20,16 +20,17 @@ class least_sq:
 
     def update_w(self):
         for i in range(len(self.x)):
-            self.w += (-1 * (2 * self.x[i] * (self.y[i] - self.w * self.x[i] - self.b)))
-        return self.w / len(self.x)
+            p = 0
+            p += (-1 * (2 * self.x[i] * (self.y[i] - self.w * self.x[i] - self.b)))
+        return p / len(self.x)
 
     def update_b(self):
         for i in range(len(self.x)):
-            self.b += (-1 * (2 * (self.y[i] - self.w * self.x[i] - self.b)))
-        return self.b / len(self.x)
+            p = 0
+            p += (-1 * (2 * (self.y[i] - self.w * self.x[i] - self.b)))
+        return p / len(self.x)
 
     def fit(self):
-        print("Hello World")
         for j in range(self.ite):
             self.w -= self.update_w() * self.lr
             self.b -= self.update_b() * self.lr
